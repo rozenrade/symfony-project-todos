@@ -1,0 +1,15 @@
+.form_container {
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+nav {
+    border : 1px solid #ccc;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

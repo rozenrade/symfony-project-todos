@@ -1,0 +1,16 @@
+{%extends "layout.html.twig" %}
+
+{% block title %}
+	<title>Accueil</title>
+{% endblock %}
+{# Définir une variable #}
+
+{% block content %}
+
+		{# Appel de la variable #}
+		<h1>Bienvenue
+			{{ nom|upper ~ " " ~ prenom|capitalize }}</h1>
+
+		{# Turner #}
+		{# {% nom = "Quent" ? "rozen" : "okyuxo" %} #}
+{% endblock %}
